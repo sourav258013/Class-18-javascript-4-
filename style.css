@@ -1,0 +1,91 @@
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+body{
+    height: 1000px;
+}
+/* common css end*/
+
+/* =====pass section start===== */
+#pass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: #F39C12 ;
+}
+
+#pass .wraper{
+    background-color: #7F8C8D;
+    padding: 15px;
+    display: flex;
+}
+
+#pass .wraper input{
+    padding: 12px;
+    border:0;
+    outline: 0;
+}
+#pass .wraper .btn-group{
+    display: flex;
+}
+#pass .wraper button{
+    padding: 12px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+#pass .wraper .btn-2{
+    display: none;
+}
+/* =====pass section end===== */
+
+/* =====progress section start===== */
+#progress{
+    height: 500px;
+}
+
+#progress .parent-box{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #8E44AD;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+#progress .child-box{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #D5DBDB;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    color:#2C3E50 ;
+    
+}
+/* =====progress section end===== */
